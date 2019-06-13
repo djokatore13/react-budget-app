@@ -8,6 +8,8 @@ import { setTextFilter} from './actions/filtersAction';
 import getVisibleEspenses from './selectors/visibleExpenses';
 import 'normalize.css/normalize.css';
 import './css/style.scss';
+import 'react-dates/initialize';
+import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 
