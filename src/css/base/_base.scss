@@ -1,10 +1,14 @@
+*{
+  box-sizing: border-box;
+}
 html { 
   font-size: 62.5%;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: $text-size;
+  font-size: $text-size-normal;
+  font-family: $raleway;
 }
 
 button {
@@ -16,11 +20,21 @@ button {
   }
 }
 
-input {
+input,
+textarea {
   outline: none;
+  border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid $blue;
 }
 
 .is-active {
   font-weight: bold;
   color: red;
+}
+
+.DateInput, .DateInput_1 {
+  position: static;
 }

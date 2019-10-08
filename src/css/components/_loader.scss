@@ -1,0 +1,18 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  &__text {
+    font-size: 25px;
+    color: $blue;
+    letter-spacing: 2px;
+  }
+  &__img {
+    width: 6rem;
+    height: 6rem;
+  }
+}

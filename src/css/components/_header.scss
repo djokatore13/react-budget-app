@@ -1,0 +1,20 @@
+.header {
+  height: 70px;
+  background-color: $dark-blue;
+
+  &__container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: $s-size 0;
+  }
+  &__title {
+    color: white;
+    text-decoration: none;
+    font-family: $montserrat-bold;
+    
+    h1{ 
+      margin: 0;
+    }
+  }
+}

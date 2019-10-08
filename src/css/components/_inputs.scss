@@ -1,0 +1,16 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 48px;
+  padding: $s-size;
+  font-size: $text-size-normal;
+  font-weight: 300;
+}
+.select {
+  @extend .text-input; // one selector should inherit the styles of another
+  background: $light-grey;
+}
+.text-area {
+  @extend .text-input;
+  height: 10rem;
+  resize: none;
+}

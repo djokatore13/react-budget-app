@@ -1,0 +1,49 @@
+.button {
+  padding: 10px 20px;
+  background: $blue;
+  border-radius: 10px;
+  font-family: $raleway-bold;
+  line-height: 1;
+  border: none;
+  outline: none;
+  color: $white;
+  text-decoration: none;
+  transition: .3s all;
+  
+  &:hover {
+    background: $dark-grey;
+    color: $light-blue;
+    border: 1px solid $light-blue;
+    transition: .3s all;
+  }
+  &--link {
+    background: none;
+    transition: .3s all;
+
+    &:hover {
+      text-decoration: underline;
+      background: none;
+      border: none;
+      color: $blue;
+      transition: .3s all;
+    }
+  }
+  &--btn {
+    
+    &:hover {
+      border: none;
+      color: $white;
+      background: fade-out($blue, .3);
+    }
+  }
+  &--secondary {
+    background: #888;
+
+    &:hover {
+      border: none;
+      background: fade-out($red, .2);
+      color: $white;
+    }
+  }
+}
+

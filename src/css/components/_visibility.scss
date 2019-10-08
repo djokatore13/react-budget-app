@@ -1,0 +1,14 @@
+.show-for-mobile {
+  display: flex;
+}
+.show-for-tablet {
+  display: none;
+}
+@include tablet() {
+  .show-for-mobile {
+    display: none;
+  }
+  .show-for-tablet {
+    display: flex;
+  }
+}

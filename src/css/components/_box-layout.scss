@@ -1,0 +1,36 @@
+.box-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/images/pb.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__box {
+    width: 25rem;
+    padding: $l-size $m-size;
+    background-color: fade-out($darker-grey, .3);
+    border-radius: 10px;
+    text-align: center;
+    color: $white;
+    transition: .3s all;
+
+    &:hover {
+      background-color: $darker-grey;
+      transition: .5s all;
+    }
+  }
+
+  &__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+    font-family: $montserrat-bold;
+  }
+  &__text {
+    font-size: $subtitle-size;
+    line-height: 30px;
+  }
+}

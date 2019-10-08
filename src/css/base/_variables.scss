@@ -1,4 +1,14 @@
 // Colors
+$white: #fff;
+$black: #000;
+$darker-grey: #272b35;
+$dark-grey: #333;
+$grey: #666;
+$light-grey: #f7f7f7;
+$blue: #1c88bf;
+$light-blue: #25dbff;
+$dark-blue: #364051;
+$red: #ff0000;
 
 // Spacing
 $s-size: 1.2rem;
@@ -9,7 +19,8 @@ $xl-size: 4.8rem;
 // Font-sizes
 $h1-size: 5.2rem;
 $subtitle-size: 2rem;
-$text-size: 1.8rem;
+$text-size-normal: 1.8rem;
+$text-size-small: 1.4rem;
 
 // Media Queries
 $tablet-breakpoint: 35rem;

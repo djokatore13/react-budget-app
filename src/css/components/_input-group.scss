@@ -1,0 +1,21 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $m-size;
+
+  &__item {
+    margin-bottom: $m-size;
+  }
+}
+
+@include tablet() {
+  .input-group {
+    margin-bottom: $l-size;
+    flex-direction: row;
+    
+    &__item {
+      margin-right: $s-size;
+      margin-bottom: 0;
+    }
+  }
+}
